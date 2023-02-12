@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ededed;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+      h1 {
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        color: #444;
+        margin-bottom: 32px;
+        padding: 40px;
+      }
+      .button-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .calculate-button {
+        width: 300px;
+        height: 100px;
+        line-height: 60px;
+        text-align: center;
+        padding: 0;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        background-color: #ededed;
+        box-shadow: 10px 10px 20px #b1bdc3, -10px -10px 20px #ffffff;
+        position: absolute;
+        top: 40%; 
+      }
+      @keyframes shadowDeepIn {
+        0% {
+          box-shadow: 10px 10px 20px #9d9db8, -10px -10px 20px #d5d5fa;
+        }
+        50% {
+          box-shadow: none;
+        }
+        100% {
+          box-shadow: inset 10px 10px 20px #9d9db8, inset -10px -10px 20px #d5d5fa;
+        }
+      }
+
+      @keyframes shadowDeepOut {
+        0% {
+          box-shadow: inset 10px 10px 20px #9d9db8, inset -10px -10px 20px #d5d5fa;
+        }
+        50% {
+          box-shadow: none;
+        }
+        100% {
+          box-shadow: 10px 10px 20px #9d9db8, -10px -10px 20px #d5d5fa;
+        }
+      }
+      .animate {
+        animation: shadowDeepIn 200ms ease-out forwards,
+            shadowDeepOut 200ms 300ms ease-in forwards,
+          darkenColor 200ms ease-out forwards,
+          darkenColor 200ms 300ms ease-in reverse forwards;
+      }
+    </style>
+    <script>
+      function calculateLot() {
+        var cap = 475;
+        var risk = 1;
+        lotForex(cap, risk);
+      }
+
+      function lotForex(cap, risk) {
+        var Risk = cap * (risk / 100);
+        var comm = 5.5;
+        
+        var sl = prompt("Sl Size (in pips) :");
+        sl = parseFloat(sl);
+
+        var lot1 = (Risk / 10) / sl;
+        var commission = lot1 * comm;
+        var lot_comm = (commission * lot1) / Risk;
+        var lots = lot1 - lot_comm;
+
+        alert("Lots Size: " + lots);
+
+        var price = prompt("Price: ");
+        price = parseFloat(price);
+
+        var trade = prompt("Long or Short: 1.long  2.short");
+        trade = parseInt(trade);
+
+        var BE_pips = (commission / Risk) * 2;
+
+        if (trade == 1) {
+          var BE = price + (BE_pips * 0.0001);
+          alert("BreakEven Price: " + BE);
+        } else {
+          var BE = price - (BE_pips * 0.0001);
+          alert("BreakEven Price: " + BE);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>FXS Lots Calculator</h1>
+    <div class="button-container">
+      <button class="calculate-button" onclick="calculateLot()">Calculate</button>
+    </div>
+  </body>
+  </html>
