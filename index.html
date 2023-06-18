@@ -91,21 +91,21 @@
 
         alert("Lots Size: " + lots);
 
-        var price = prompt("Price: ");
-        price = parseFloat(price);
+        // var price = prompt("Price: ");
+        // price = parseFloat(price);
 
-        var trade = prompt("Long or Short: 1.long  2.short");
-        trade = parseInt(trade);
+        // var trade = prompt("Long or Short: 1.long  2.short");
+        // trade = parseInt(trade);
 
-        var BE_pips = (commission / Risk) * 2;
+        // var BE_pips = (commission / Risk) * 2;
 
-        if (trade == 1) {
-          var BE = price + (BE_pips * 0.0001);
-          alert("BreakEven Price: " + BE);
-        } else {
-          var BE = price - (BE_pips * 0.0001);
-          alert("BreakEven Price: " + BE);
-        }
+        // if (trade == 1) {
+        //   var BE = price + (BE_pips * 0.0001);
+        //   alert("BreakEven Price: " + BE);
+        // } else {
+        //   var BE = price - (BE_pips * 0.0001);
+        //   alert("BreakEven Price: " + BE);
+        // }
       }
     </script>
   </head>
@@ -115,4 +115,5 @@
       <button class="calculate-button" onclick="calculateLot()">Calculate</button>
     </div>
   </body>
-  </html>
+</html>
+
