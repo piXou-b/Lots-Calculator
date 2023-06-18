@@ -36,8 +36,6 @@
         box-shadow: 10px 10px 20px #b1bdc3, -10px -10px 20px #ffffff;
         position: absolute;
         top: 40%; 
-        color: black;
-        font-size: 18px;
       }
       @keyframes shadowDeepIn {
         0% {
@@ -71,9 +69,12 @@
     </style>
     <script>
       function calculateLot() {
-        var cap = 475;
-        var risk = 1;
+        var cap = 10000;
+        var risk = 0.5;
         lotForex(cap, risk);
+        var cap2 = 350;
+        var risk2 = 1;
+        lotForex(cap2, risk2);
       }
 
       function lotForex(cap, risk) {
