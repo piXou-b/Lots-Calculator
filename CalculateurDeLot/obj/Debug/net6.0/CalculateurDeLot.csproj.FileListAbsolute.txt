@@ -1,0 +1,31 @@
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot.deps.json
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot.runtimeconfig.json
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot.dll
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot.pdb
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.AssemblyInfoInputs.cache
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.AssemblyInfo.cs
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.csproj.CoreCompileInputs.cache
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.dll
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/obj/Debug/net6.0/refint/CalculateurDeLot.dll
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.pdb
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.genruntimeconfig.cache
+/Users/benjI/Documents/Documents - MacBook Pro de EMILY/Trading/CalculateurDeLot/obj/Debug/net6.0/ref/CalculateurDeLot.dll
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot.deps.json
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot.runtimeconfig.json
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot.dll
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/bin/Debug/net6.0/CalculateurDeLot.pdb
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.AssemblyInfoInputs.cache
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.AssemblyInfo.cs
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.csproj.CoreCompileInputs.cache
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.dll
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/refint/CalculateurDeLot.dll
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.pdb
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.genruntimeconfig.cache
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/ref/CalculateurDeLot.dll
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/bin/Debug/net6.0/Spectre.Console.dll
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.csproj.AssemblyReference.cache
+/Users/benjaminemily/Documents/Trading/CalculateurDeLot/obj/Debug/net6.0/CalculateurDeLot.csproj.CopyComplete

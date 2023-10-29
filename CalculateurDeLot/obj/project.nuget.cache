@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y4b4tcXCYmtq6AsADud1n7eoUiY6k1O8gwcSlZ45bNYcsr7bT1PFI3ilzNGYMtU2L6eyemVD3hgB+m6XWyS7TQ==",
+  "success": true,
+  "projectFilePath": "/Users/benjaminemily/Documents/Trading/CalculateurDeLot/CalculateurDeLot.csproj",
+  "expectedPackageFiles": [
+    "/Users/benjaminemily/.nuget/packages/spectre.console/0.47.0/spectre.console.0.47.0.nupkg.sha512",
+    "/Users/benjaminemily/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
